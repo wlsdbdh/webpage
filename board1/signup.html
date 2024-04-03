@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <title>회원가입</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+        <img class="main_logo" src="img/logo.png">
+        </div>
+    
+        <form action="signup.php" method="POST">
+
+            <input type="hidden" id="idx" name="idx">
+
+            <label for="userid"></label>
+            <input type="text" id="userid" name="userid" oninput="checkDuplicate()" required placeholder="사용자 이름">
+        <span id="duplicateMessage"></span><br>
+
+            <label for="passwd"></label>
+        <input type="password" id="passwd" name="passwd" required placeholder="비밀번호"><br>
+
+            <label for="username"></label>
+        <input type="text" id="username" name="username" required placeholder="성명"><br>
+
+            <label for="phone_num"></label>
+            <input type="tel" id="phone_num" name="phone_num" required placeholder="전화번호"><br>
+        
+            <button type="submit">가입</button>
+        </form>
+    </div>
+
+    
+
+
+</body>
+</html>

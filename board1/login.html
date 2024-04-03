@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <div>
+                <img class="main_logo" src="img/logo.png">
+            </div>
+            <form action="login.php" method="POST">
+
+                <input type="text" id="userid" name="userid" required placeholder="전화번호 또는 사용자 이름"><br>
+
+                <input type="password" id="passwd" name="passwd" required placeholder="비밀번호"><br>
+        
+                <button type="submit">로그인</button>
+            </form>
+        </div>
+
+        <div class="signup-container">
+        계정이 없으신가요? <a href="signup.html">가입하기</a>
+        </div>
+    </div>
+</body>
+</html>
