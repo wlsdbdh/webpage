@@ -1,0 +1,87 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+    font-size: small;
+}
+
+.main_logo {
+    width: 108px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container,
+.signup-container {
+    box-sizing: border-box; 
+    text-align: center;
+    border: 1px solid #D8D8D8;
+    border-radius: 1px;
+    margin-bottom: 10px;
+    padding: 13px; 
+    width: 255px; 
+}
+
+.signup-container a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.signup-container a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px 10px;
+    background-color: #f5f5f5;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #c0c0c0; 
+    border-radius: 1px;
+}
+
+input::placeholder {
+    font-size: smaller;
+}
+
+button {
+    background-color: #4CB5F9;
+    color: white;
+    padding: 8px 15px; 
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.error-message {
+    font-size: smaller;
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
