@@ -1,0 +1,136 @@
+@charset "utf-8" ;
+@font-face {
+    font-family: 'levi-windows';
+    src: url("C:/Users/jelly/Desktop/FRONT STUDY/font/LEVIWINDOWS.TTF");
+}
+
+body,html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #008080;
+    font-family: 'levi-windows';
+    font-size: 25px;
+    overflow: hidden;
+}
+
+li {
+    list-style: none;
+    color: white;
+}
+
+#wrapper{
+    height: auto;
+    min-height: 100%;
+}
+
+#desktop-icon {
+    display: inline-block;
+    position: relative;
+    top: 30px;
+}
+
+#desktop-icon > li {
+    margin : 20px 0px;
+    text-align: center;
+}
+
+#desktop-icon > li > a{
+    text-decoration-line: none;
+    text-align: center;
+}
+
+#desktop-icon > li >  a:visited{color: white;}
+#desktop-icon > li >  a:hover{color: blue;}
+
+footer {
+    background-color: #D4D0C8;
+    height: 40px;
+    position: relative;
+    transform: translateY(-100%);
+    color: black;
+}
+
+#window-start-box{
+    padding: 2px;
+    box-shadow: inset 2px 0 #fff;
+    display: block;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 2px solid white;
+    border-bottom: 1px solid #4e4e4e;
+    z-index: 110;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+
+.start-box {
+    float: left;
+    margin-left: 10px;
+    padding: 0 10px 0 10px;
+    border-top: 1px solid white;
+    border-left: 1.5px solid white;
+    border-bottom: 1px solid black;
+    border-right: 2px solid black;
+    box-shadow: inset 1px 2px gray;
+    background-color: #D4D0C8;
+}
+
+.start-box > img {
+    object-fit: cover;
+}
+
+.made-box > a {
+    float: left;
+    padding: 0 40px 0 10px;
+    margin-left: 5px;
+    border-top: 1px solid white;
+    border-left: 2px solid white;
+    border-bottom: 1.5px solid black;
+    border-right: 2.5px solid black;
+    box-shadow: inset 1.5px 2px gray;
+    background-color: #D4D0C8;
+}
+
+.made-box > a:hover {color:blue}
+.made-box > a:visited {color: black}
+
+.made-box > a{
+    margin-right: 2px;
+    vertical-align: middle;
+    text-decoration-line: none;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.made-box > img {
+    padding-right: 5px;
+}
+
+#current-time {
+    float: right;
+    margin-right: 2px;
+    padding: 0 20px 0 30px;
+    text-align: center;
+    border-top: 1px solid white;
+    border-left: 2px solid white;
+    border-bottom: 1.5px solid black;
+    border-right: 2.5px solid gray;
+    box-shadow: inset 1.5px 2px gray;
+    background-color: #D4D0C8;
+}
+
+.logo > img {
+    float: right;
+    padding-right: 2px;
+    position: relative;
+    top: 5px;
+    right: 2px;
+
+}
